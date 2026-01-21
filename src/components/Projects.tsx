@@ -4,18 +4,25 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const projects = [
     {
-      title: 'Nexus Analytics',
-      description: 'Plataforma de análisis de datos en tiempo real con visualizaciones 3D y dashboard interactivo.',
-      image: '/projects/p1.png',
-      tags: ['React', 'Three.js', 'Node.js'],
-      links: { demo: '#', github: '#' }
+      title: 'TalentoPlus S.A.S.',
+      description: 'Sistema completo de gestión de empleados con aplicación web MVC, API REST con JWT, dashboard IA, generación de PDF y importación de Excel. Arquitectura en capas con principios Clean Architecture.',
+      image: '/projects/p1 .png',
+      tags: ['ASP.NET Core', 'PostgreSQL', 'Entity Framework', 'JWT', 'QuestPDF'],
+      links: { demo: '#', github: 'https://github.com/ally2105/TalentoPlus' }
     },
     {
       title: 'Vibrant Finds',
       description: 'Aplicación móvil de e-commerce con una interfaz minimalista y sistema de pagos integrado.',
-      image: '/projects/p2.png',
+      image: '/projects/p3.png',
       tags: ['React Native', 'Firebase', 'Stripe'],
       links: { demo: '#', github: '#' }
+    },
+    {
+      title: 'Firmeza',
+      description: 'Sistema integral de gestión de construcción con API REST, frontend SPA en React, panel de administración MVC. Incluye autenticación JWT, carrito de compras, generación de PDF, envío de correos y importación de Excel.',
+      image: '/projects/p4.png',
+      tags: ['.NET 8', 'React', 'PostgreSQL', 'Docker', 'iTextSharp'],
+      links: { demo: '#', github: 'https://github.com/ally2105/gestion_constructora.git' }
     }
   ];
 
@@ -24,7 +31,7 @@ const Projects = () => {
       <div className="container">
         <h2 className="text-4xl font-bold mb-16">Proyectos <span className="gradient-text">Destacados</span></h2>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           {projects.map((project, idx) => (
             <motion.div
               key={project.title}

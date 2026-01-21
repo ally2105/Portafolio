@@ -18,21 +18,21 @@ const Contact = () => {
               <div className="w-16 h-16 glass flex items-center justify-center text-brand-5"><Mail /></div>
               <div>
                 <h4 className="text-lg font-bold">Email</h4>
-                <p className="text-gray-400">hola@tusitio.com</p>
+                <p className="text-gray-400">paulethsegrera@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-6">
               <div className="w-16 h-16 glass flex items-center justify-center text-brand-5"><Phone /></div>
               <div>
                 <h4 className="text-lg font-bold">Teléfono</h4>
-                <p className="text-gray-400">+34 123 456 789</p>
+                <p className="text-gray-400">+57 314 857 0522</p>
               </div>
             </div>
             <div className="flex items-center gap-6">
               <div className="w-16 h-16 glass flex items-center justify-center text-brand-5"><MapPin /></div>
               <div>
                 <h4 className="text-lg font-bold">Ubicación</h4>
-                <p className="text-gray-400">Madrid, España</p>
+                <p className="text-gray-400">Barranquilla, Colombia</p>
               </div>
             </div>
           </motion.div>
