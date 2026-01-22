@@ -11,16 +11,9 @@ const Projects = () => {
       links: { demo: '#', github: 'https://github.com/ally2105/TalentoPlus' }
     },
     {
-      title: 'Vibrant Finds',
-      description: 'Aplicación móvil de e-commerce con una interfaz minimalista y sistema de pagos integrado.',
-      image: '/projects/p3.png',
-      tags: ['React Native', 'Firebase', 'Stripe'],
-      links: { demo: '#', github: '#' }
-    },
-    {
       title: 'Firmeza',
       description: 'Sistema integral de gestión de construcción con API REST, frontend SPA en React, panel de administración MVC. Incluye autenticación JWT, carrito de compras, generación de PDF, envío de correos y importación de Excel.',
-      image: '/projects/p4.png',
+      image: '/projects/p3.png',
       tags: ['.NET 8', 'React', 'PostgreSQL', 'Docker', 'iTextSharp'],
       links: { demo: '#', github: 'https://github.com/ally2105/gestion_constructora.git' }
     }
