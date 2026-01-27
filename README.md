@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# Portfolio Profesional - Allison Pauleth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a mi portafolio profesional! Este es un proyecto moderno, dinámico y optimizado, diseñado para mostrar mi trabajo como desarrolladora **Full-Stack**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19**: Biblioteca principal para la interfaz de usuario.
+- **TypeScript**: Para un desarrollo robusto y tipado.
+- **Tailwind CSS 4**: Estilizado moderno y eficiente.
+- **Framer Motion**: Animaciones fluidas y transiciones premium.
+- **Lucide React**: Set de iconos elegantes y minimalistas.
+- **Vite**: Herramienta de construcción ultra rápida.
 
-## React Compiler
+## ✨ Características Destacadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Diseño Premium**: Estética moderna con efectos de _glassmorphism_ y gradientes dinámicos.
+- **Fondo Animado CSS**: Un fondo atmosférico de alta performance que no depende de videos externos.
+- **Totalmente Responsivo**: Optimizado para dispositivos móviles, tablets y escritorio.
+- **SEO Optimizado**: Configuración completa de meta-tags y Open Graph para compartir en redes sociales.
+- **Accesibilidad (a11y)**: Navegación optimizada para lectores de pantalla.
 
-## Expanding the ESLint configuration
+## 🛠️ Instalación y Configuración
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. **Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/tu-usuario/portafolio.git
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+2. **Instalar dependencias**:
+   ```bash
+   npm install
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+3. **Ejecutar en modo desarrollo**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Construir para producción**:
+   ```bash
+   npm run build
+   ```
+
+## 📂 Estructura del Proyecto
+
+```text
+src/
+├── components/        # Componentes reutilizables (Hero, Navbar, Proyectos, etc.)
+├── assets/            # Recursos estáticos (imágenes, iconos)
+├── App.tsx            # Componente raíz
+├── index.css          # Estilos globales y configuración de Tailwind
+└── main.tsx           # Punto de entrada de la aplicación
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📧 Contacto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Si estás interesado en trabajar conmigo o simplemente quieres saludar, puedes encontrarme en:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Email**: [paulethsegrera@gmail.com](mailto:paulethsegrera@gmail.com)
+- **LinkedIn**: [Allison Pauleth](https://www.linkedin.com/in/allison-pauleth)
+- **GitHub**: [ally2105](https://github.com/ally2105)
+
+---
+Desarrollado con ❤️ por Allison Pauleth.
