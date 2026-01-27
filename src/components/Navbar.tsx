@@ -17,7 +17,6 @@ const Navbar = () => {
     { name: 'Inicio', href: '#home' },
     { name: 'Sobre Mí', href: '#about' },
     { name: 'Habilidades', href: '#skills' },
-    { name: 'Experiencia', href: '#experience' },
     { name: 'Proyectos', href: '#projects' },
     { name: 'Contacto', href: '#contact' },
   ];
@@ -44,12 +43,14 @@ const Navbar = () => {
 
         <div className="flex items-center gap-6">
           <div className="hidden sm:flex gap-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-5 transition-transform hover:-translate-y-0.5"><Github size={20} /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-5 transition-transform hover:-translate-y-0.5"><Linkedin size={20} /></a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-5 transition-transform hover:-translate-y-0.5" aria-label="GitHub"><Github size={20} /></a>
+            <a href="https://www.linkedin.com/in/allison-pauleth?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-5 transition-transform hover:-translate-y-0.5" aria-label="LinkedIn"><Linkedin size={20} /></a>
           </div>
           <button
             className="md:hidden text-white cursor-pointer"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
+            aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen ? <X /> : <Menu />}
           </button>

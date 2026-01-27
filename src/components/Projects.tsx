@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: 'TalentoPlus S.A.S.',
       description: 'Sistema completo de gestión de empleados con aplicación web MVC, API REST con JWT, dashboard IA, generación de PDF y importación de Excel. Arquitectura en capas con principios Clean Architecture.',
-      image: '/projects/p1 .png',
+      image: '/projects/p1.png',
       tags: ['ASP.NET Core', 'PostgreSQL', 'Entity Framework', 'JWT', 'QuestPDF'],
       links: { demo: '#', github: 'https://github.com/ally2105/TalentoPlus' }
     },

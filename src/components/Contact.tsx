@@ -45,13 +45,13 @@ const Contact = () => {
             onSubmit={(e) => e.preventDefault()}
           >
             <div>
-              <input type="text" placeholder="Nombre" className="w-full px-6 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:border-brand-5 transition-colors" required />
+              <input type="text" placeholder="Nombre" aria-label="Tu nombre" className="w-full px-6 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:border-brand-5 transition-colors" required />
             </div>
             <div>
-              <input type="email" placeholder="Email" className="w-full px-6 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:border-brand-5 transition-colors" required />
+              <input type="email" placeholder="Email" aria-label="Tu correo electrónico" className="w-full px-6 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:border-brand-5 transition-colors" required />
             </div>
             <div>
-              <textarea placeholder="Mensaje" rows={5} className="w-full px-6 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:border-brand-5 transition-colors" required></textarea>
+              <textarea placeholder="Mensaje" aria-label="Tu mensaje" rows={5} className="w-full px-6 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:border-brand-5 transition-colors" required></textarea>
             </div>
             <button type="submit" className="btn-primary w-full justify-center">
               Enviar Mensaje <Send size={18} />
