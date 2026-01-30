@@ -16,6 +16,13 @@ const Projects = () => {
       image: '/projects/p3.png',
       tags: ['.NET 8', 'React', 'PostgreSQL', 'Docker', 'iTextSharp'],
       links: { demo: '#', github: 'https://github.com/ally2105/gestion_constructora.git' }
+    },
+    {
+      title: 'Gestor de Turnos hospitalarios',
+      description: 'Sistema web para la gestión de turnos de atención al cliente en tiempo real, desarrollado con ASP.NET Core 8.0, Entity Framework Core y SignalR.',
+      image: '/projects/p2.png',
+      tags: ['HTML', 'C#', 'CSS'],
+      links: { demo: '#', github: 'https://github.com/ally2105/GestorTurnosHospitalarios' }
     }
   ];
 
