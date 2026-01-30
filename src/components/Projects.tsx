@@ -11,7 +11,7 @@ const Projects = () => {
       links: { demo: '#', github: 'https://github.com/ally2105/TalentoPlus' }
     },
     {
-      title: 'Firmeza',
+      title: 'Firmaza',
       description: 'Sistema integral de gestión de construcción con API REST, frontend SPA en React, panel de administración MVC. Incluye autenticación JWT, carrito de compras, generación de PDF, envío de correos y importación de Excel.',
       image: '/projects/p3.png',
       tags: ['.NET 8', 'React', 'PostgreSQL', 'Docker', 'iTextSharp'],
